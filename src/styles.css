@@ -1,0 +1,35 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    object-fit: cover;
+}
+
+.imgRedonda {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    align-items: left;
+}
+
+button {
+    align-items: left;
+}
+
+.edit-icon-button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: #333;
+    margin-left: 5px;
+}
+
+.cuerpo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 110px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}

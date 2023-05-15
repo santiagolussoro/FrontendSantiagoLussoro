@@ -1,0 +1,50 @@
+.banner {
+    position: relative;
+    height: 100px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.foto-perfil {
+    object-position: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    top: 50%;
+    left: 16%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.foto-perfil img {
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #011957;
+}
+
+.segunda-row {
+    margin-top: -70px;
+}
+
+.info-perfil h3 {
+    margin-bottom: 10px;
+}
+
+.info-perfil h5 {
+    margin-bottom: 20px;
+}
+
+.sobre-mi {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.info-perfil {
+    justify-content: center;
+    padding: 15px;
+    text-align: center;
+}

@@ -1,0 +1,62 @@
+<div class="cuerpo">
+    <div class="row">
+        <div class="col-md-6">
+            <h4>Hard Skills</h4>
+            <div class="skill">
+                <div class="skill-name" contentEditable="true">{{hardSkill}}
+                    <button class="edit-button" (click)="editar()">&#x270E;</button>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" [style.width.%]="porcentaje" role="progressbar"
+                        [attr.aria-valuenow]="porcentaje" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="skill-percent" contentEditable="true">{{porcentaje}}%
+                    <button class="edit-button" (click)="editar()">&#x270E;</button>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name" contentEditable="true">{{hardSkill1}}
+                    <button class="edit-button" (click)="editar()">&#x270E;</button>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" [style.width.%]="porcentaje1" role="progressbar"
+                        [attr.aria-valuenow]="porcentaje1" aria-valuemin="0" aria-valuemax="100">
+                    </div>
+                </div>
+                <div class="skill-percent" contentEditable="true">{{porcentaje1}}%
+                    <button class="edit-button" (click)="editar()">&#x270E;</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <h4>Soft Skills</h4>
+            <div class="skill">
+                <div class="skill-name" contentEditable="true">{{softSkill}}
+                    <button class="edit-button" (click)="editar()">&#x270E;</button>
+
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" [style.width.%]="porcentajeSS" role="progressbar"
+                        [attr.aria-valuenow]="porcentajeSS" aria-valuemin="0" aria-valuemax="100">
+                    </div>
+                </div>
+                <div class="skill-percent" contentEditable="true">{{porcentajeSS}}%
+                    <button class="edit-button" (click)="editar()">&#x270E;</button>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name" contentEditable="true">{{softSkill1}}
+                    <button class="edit-button" (click)="editar()">&#x270E;</button>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" [style.width.%]="porcentajeSS1" role="progressbar"
+                        [attr.aria-valuenow]="porcentajeSS1" aria-valuemin="0" aria-valuemax="100">
+                    </div>
+                </div>
+                <div class="skill-percent" contentEditable="true">{{porcentajeSS1}}%
+                    <button class="edit-button" (click)="editar()">&#x270E;</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

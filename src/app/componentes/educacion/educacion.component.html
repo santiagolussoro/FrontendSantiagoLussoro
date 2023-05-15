@@ -1,0 +1,37 @@
+<div class="cuerpo">
+  <h4> Educación </h4>
+  <div class="row">
+    <div class="col-md-3">
+      <img [src]="imagenescuela" alt="Logo Colegio San Agustín" width="70" height="70" class="logo-img"
+        [contentEditable]="isEditable">
+    </div>
+    <div class="col-md-9">
+      <h4 contentEditable="true" class="mb-1">{{escuela}} <button class="edit-button"
+          (click)="editar()">&#x270E;</button>
+      </h4>
+      <p contentEditable="true" class="mb-0">{{titulo}} <button class="edit-button" (click)="editar()">&#x270E;</button>
+      </p>
+      <p contentEditable="true" class="mb-0">{{desdeHasta}} <button class="edit-button"
+          (click)="editar()">&#x270E;</button>
+      </p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3" [contentEditable]="isEditable">
+      <img [src]="imagencurso" alt="Logo Argentina Programa" width="70" height="70" class="logo-img"
+        [contentEditable]="isEditable">
+
+    </div>
+    <div class="col-md-9">
+      <h4 contentEditable="true" class="mb-1">{{curso}} <button class="edit-button" (click)="editar()">&#x270E;</button>
+      </h4>
+      <p contentEditable="true" class="mb-0">{{titulo1}} <button class="edit-button"
+          (click)="editar()">&#x270E;</button>
+      </p>
+      <p contentEditable="true" class="mb-0">{{desdeHasta1}} <button class="edit-button"
+          (click)="editar()">&#x270E;</button>
+      </p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,23 @@
+.skill {
+    margin-bottom: 15px;
+  }
+  
+  .skill-name {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .skill-bar {
+    height: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    overflow: hidden;
+  }
+  
+  .skill-progress {
+    height: 20px;
+    background-color: #007bff;
+    border-radius: 10px;
+  }
+
